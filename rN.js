@@ -1,4 +1,4 @@
-var rNCount=168,interactable=42;
+var rNCount=234,interactable=52;
 var timeleft=8000;
 rN=new Array(
 	"This is the first Newsticker!",
@@ -14,7 +14,7 @@ rN=new Array(
 	"qwqbbles",
 	"A Newsticker. How Original.",
 	"Layer Omega",
-	"Special thanks to WYXkk for discouraging me!",
+	"No you have time for this",
 	"Special thanks to Fallen_Cat for inspiring me to make such a game!",
 	"Special thanks to gityx.com for introducing me to idle games!",
 	"First, a machine to compute with",
@@ -44,7 +44,7 @@ rN=new Array(
 	"Now playing: Opia - rN",
 	"Now playing: +ERABY+E CONNEC+10N - Camellia",
 	"Now playing: Aegleseeker - Silentroom/Frums",
-	"Now playing: Can You Friend Me On Bassbook? lol - Camellia & Nanahira",
+	"This is definitely the worst game ever.",
 	"Not just a newsticker game.",
 	"There was once a paperclip here, but now there's not.",
 	"You may want to spend your paperclips on something.",
@@ -86,7 +86,7 @@ rN=new Array(
 	"Update log: V20240211 - Added 60 newstickers and basic functions.",
 	"2 - 2 - 2... ok... 6 - 6 - 24' - 32' - HOLD ON!... - 4 5 2 4 4 fff 3 ... NICE!!!",
 	"You have got past the great Wall, but don't let that wall in your heart stop you. Get over it.",
-	"This is a coarse game. --- yhvr",
+	"Click this to get a +0.018% bonus to global speed. (Capped at 18%)",
 	"Newsticker Idle has added another prestige layer: Storage! Reset your LocalStorage to acquire Storage space.",
 	"Clicking on this news gives +1 extra read news! Works with privileges.",
 	"Reading this news gives a wapping +50 clicks! Works with privileges.",
@@ -101,7 +101,7 @@ rN=new Array(
 	"Update log: V20240212a - Added 40 more newstickers, 6 Upgrades and a lot more content!",
 	"Coming soon in 8 seconds...",
 	"Do you know that the loading news is there just to prevent you from cheating?",
-	"Update log: V20240412b - Added the first News Dimension.",
+	"Update log: V20240212b - Added the first News Dimension.",
 	"ND1 should finally work properly.",
 	"Do you know that there is a length limit on newstickers?",
 	"Click on this news to click on this news!",
@@ -138,7 +138,7 @@ rN=new Array(
 	"Gotta go fast. -ND1",
 	"Update log: V20240214a - Added 40 more newstickers and 4 new upgrades.",
 	"This news message is removed because of malfunction in the newsticker.",
-	"Did you notice that message which is removed? Actually that's because it's too long and doesn't fit in the newsticker.",
+	"Did you notice that message which is removed? Actually that's because it's too long to fit in the newsticker.",
 	"Update log: V20240224 - Added notations.",
 	"Nice stories. -ACrazySteve",
 	"The correct order of the stories is not what you think.",
@@ -167,15 +167,84 @@ rN=new Array(
 	"Adinplay has ads that close after 5 secs. In this game, you have to wait for 8. Lame.",
 	"This is it. An agile sprint. 5 news in a minute. Speedrun.",
 	"This is a Meows Nessage!",
-	"This is a News Message!",
-	"Now playing: Infinite Strife, - BlackY/Yooh/siromaru"
+	"This is a News Massage!",
+	"Now playing: Infinite Strife, - BlackY/Yooh/siromaru",
+	"Do you want to play Mews Dash?",
+	"Kick me with the HARDCORE!!!",
+	"Click this to make the next 5 news messages randomize twice before picking it!",
+	"The story might end somewhere, but that's definitely not the end of the game.",
+	"Click this to obtain a free 1st \"1st Mews Dimension\" Dimension!",
+	"Click this to get a +0.099% bonus to global speed. Does not softcap.",
+	"Are you comfortable under hardcaps?",
+	"Warning: High voltage. Do not get close to this newsticker without hardcaps easily.",
+	"=>#<= This is the 30000th character in the code of the game! Hooray!",
+	"Breaking news! Scientists have just declared Idle Game Developer a new species!",
+	"Optic Coin - Casio",
+	"Make a wish if you see this. A celestial may see it.",
+	"BOF:XV was held in 2019.",
+	"Tell me what scares you",
+	"A plane crashed due to newstickers floating in the air.",
+	"I hate myself. This is not a reference. I hate myself.",
+	"The feeling of free falling is great. - some cat",
+	"Now playing: Avantgarde - Raimukun",
+	"Do you know? I am writing this news message in IT class!",
+	"... You are right ...",
+	"Hello. -Sparkle_7",
+	"This is a newsticker.",
+	"This news message is blocked due to impolite language.",
+	"Update log: V20240304 - Added 60 more newstickers.",
+	"You are cute. This game is cute.",
+	"Bee ti tsai nar! Bee ti!",
+	"zywxvutsrqponmlkjihgfedcba",
+	"2NO2 + H2O === HNO2 + HNO3",
+	"--^v--^v--^v-----------------^v^v^v^v^v-",
+	"This is the 198th news! Go on!!!",
+	"Now playing: World Ender - sasakure.UK/TJ.Hangneil",
+	"Wow! I want to be enlightened by a News Dimensions Autobuyer.",
+	"Update log: V20240320 - Added 50 more newstickers. And Endgame.",
+	"This is a news message belonging to the endgame!",
+	"Generators. Ha. THey are really a good mechanism.",
+	"The year is 2024, l319836 is still agile sprinting to make more news.",
+	"Because of unlocking too much news, you have been placed under constant overseeing.",
+	"FAR FAR FAR FAR -Pentiment",
+	"The content here is a little strange.",
+	"Click this to lock the story.",
+	"Tome 5 of 4: How to make stack overflow legit.",
+	"Tome 6 of 4: How to master the art of clicking.",
+	"Tome 7 of 4: How to get a free autoclicker.",
+	"Tome 8 of 4: How to write more tomes without Synergism.",
+	"Tome 9 of 4: How to make ND1 produce even more.",
+	"Tome 10 of 4: Okay this is definitely the last tome",
+	"The author has finally finished his game. -l319836 at 11:05pm",
+	"just an ordinary news passing by",
+	"Stop! the previous news message is sussy. We don't think it belongs here.",
+	"bilibilibilibilibilinilibilinilibilinili <-- the author practising axis interaction",
+	"Do you know? The local storage variable names are written randomly.",
+	"There is nothing left except the news.",
+	"If you see this news, you are very close to the endgame. Come on.",
+	"This is a Neeeeeeeews Meeeeeeeessageeeeeeee.",
+	"Do you rmmbr th typr in cooki clickr?",
+	"I sleep later than an average person, but not most of the people I see. Interesting.",
+	"mustache --> must ache",
+	"I think I am finishing 50 news in a night! What progress!",
+	"It it the year 2024. l319836 is still agile sprinting to make it to the end of the game.",
+	"If you reach the endgame, you can send your own news to me.",
+	"What HOW am I able to come up with so many news messages in a hour",
+	"A newsticker passes in 8 seconds of gametime. You must produce one per 8 seconds to avoid running out of stock.",
+	"The BPM of Tempestissimo - t+pazolite will guide you forever.",
+	"A newsticker. How original. Wait, isn't that taken?",
+	"Imagine a newsticker which is empty!",
+	"THe BPM of Aegleseeker - Silentroom/Frums will guide you eternally."
 );
 var dejavu=0,pendingWipe=0,cheat=0;
 var totalNewsRead=0,totalNewsClicked=0;
 var paperclip=0,currentCapTier=0;
 var ND1=0,PG=0,awa=0,Gened=0;
 var storyUnlocked=0,storyShown=0;
-var interacted=new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+var anomaly=0;
+var nt85clicked=0,i50clicked=0;
+var currentStage=0;
+var interacted=new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 function icrr(num){
 	var incr=num;
 	if(interacted[10])incr*=2;
@@ -201,7 +270,7 @@ function icrc(num){
 	totalNewsClicked=Math.floor(totalNewsClicked+0.1);
 }
 function calcr(){
-	var tmp1=Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]),ND1-1);
+	var tmp1=Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]+interacted[44]+interacted[45]+interacted[46]),ND1-1);
 	if(interacted[17])tmp1*=1.5;
 	if(interacted[18])tmp1*=2;
 	if(interacted[32])tmp1*=Math.pow(2.5+0.5*interacted[39],paperclip-15);
@@ -209,7 +278,7 @@ function calcr(){
 	return Math.floor(tmp1);
 }
 function calcc(){
-	var tmp2=3*Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]),ND1-1);
+	var tmp2=3*Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]+interacted[44]+interacted[45]+interacted[46]),ND1-1);
 	if(interacted[19])tmp2*=1.5;
 	if(interacted[20])tmp2*=2;
 	if(interacted[32])tmp2*=Math.pow(2.5+0.5*interacted[39],paperclip-15);
@@ -233,7 +302,7 @@ function BuyND1(){
 		totalNewsRead-=800*Math.floor(Math.pow(3,ND1));
 		ND1++;
 	}
-	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyND1()\"\>"+"Click here to buy 1st News Dimensions. Amount: "+nt(ND1)+" Prod.: +"+nt(calcr())+"R/s +"+nt(calcc())+"C/s. Cost: "+nt(800*Math.floor(Math.pow(3,ND1)))+"R "+nt(2400*Math.floor(Math.pow(3,ND1)))+"C."+"</div>";
+	if(interacted[42]==0)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyND1()\"\>"+"Click here to buy 1st News Dimensions. Amount: "+nt(ND1)+" Prod.: +"+nt(calcr())+"R/s +"+nt(calcc())+"C/s. Cost: "+nt(800*Math.floor(Math.pow(3,ND1)))+"R "+nt(2400*Math.floor(Math.pow(3,ND1)))+"C."+"</div>";
 }
 function BuyGEN(){
 	if((totalNewsClicked>=3*pgcost())&&(totalNewsRead>=pgcost())){
@@ -241,25 +310,50 @@ function BuyGEN(){
 		totalNewsRead-=pgcost();
 		PG++;
 	}
-	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyGEN()\"\>"+"Click here to upgrade your Generator. Level: "+nt(PG)+" Progress: +"+nt(passed())+" of "+nt(tot())+"seconds. Cost: "+nt(pgcost())+"R "+nt(3*pgcost())+"C."+"</div>";
+	if(interacted[43]==0)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyGEN()\"\>"+"Click here to upgrade your Generator. Level: "+nt(PG)+" Progress: +"+nt(passed())+" of "+nt(tot())+"seconds. Cost: "+nt(pgcost())+"R "+nt(3*pgcost())+"C."+"</div>";
 }
 setInterval(function(){
-	totalNewsClicked+=3*Math.floor(Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]),ND1-1));
-	totalNewsRead+=Math.floor(Math.pow(2+0.1*(interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]),ND1-1));
+	totalNewsClicked+=calcc();
+	totalNewsRead+=calcr();
 	document.getElementById("s1").innerHTML="You have read a total of "+nt(totalNewsRead)+" news.";
 	document.getElementById("s2").innerHTML="You have clicked on a total of "+nt(totalNewsClicked)+" news.";
+	document.getElementById("s3").innerHTML="You have "+paperclip+" paperclips. You need another "+(5+5*currentCapTier-paperclip)+" to unlock more news. Current News size: "+Math.min(rNCount,Math.floor((50+50*currentCapTier)+0.1));
+	ShowTab();
 },1000/((dejavu*10)+1));
 function Dim(){
+	if(anomaly==8)anomaly=9;
+	else if(anomaly==7)anomaly=8;
+	else if(anomaly==15){
+		anomaly=16;
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\"\>"+"Anomaly"+"</div>";
+	}
+	else anomaly=0;
 	timeleft=1e+14;
 	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyND1()\"\>"+"Click here to buy 1st News Dimensions. Amount: "+nt(ND1)+" Prod.: +"+nt(calcr())+"R/s +"+nt(calcc())+"C/s. Cost: "+nt(800*Math.floor(Math.pow(3,ND1)))+"R "+nt(2400*Math.floor(Math.pow(3,ND1)))+"C."+"</div>";
 }
 function Gen(){
+	if(anomaly==4)anomaly=5;
+	else if(anomaly==3)anomaly=4;
+	else if(anomaly==11){
+		anomaly=12;
+		currentPage=15;
+		ShowStory(15);
+	}
+	else anomaly=0;
 	timeleft=1e+14;
-	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyGEN()\"\>"+"Click here to upgrade your Generator. Level: "+nt(PG)+" Progress: +"+nt(passed())+" of "+nt(tot())+"seconds. Cost: "+nt(pgcost())+"R "+nt(3*pgcost())+"C."+"</div>";
+	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"BuyGEN()\"\>"+"Click here to upgrade your Generator. Level: "+nt(PG)+" Progress: +"+nt(passed())+" of "+nt(tot())+". Cost: "+nt(pgcost())+"R "+nt(3*pgcost())+"C."+"</div>";
 }
 function Ex(){
+	if(anomaly==5){
+		anomaly=6;
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews(-1)\"\>"+"No solution."+"</div>";
+	}
+	else if(anomaly==25)anomaly=26;
+	else if(anomaly==24)anomaly=25;
+	else if(anomaly==17)anomaly=18;
+	else anomaly=0;
 	timeleft=8000;
-	document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\"\>"+"Newsticker Idle is loading... (This will take 8 seconds.)"+"</div>";
+	if(anomaly!=6)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\"\>"+"Newsticker Idle is loading... (This will take 8 seconds.)"+"</div>";
 }
 setInterval(function(){
 	if(pendingWipe==1){
@@ -271,20 +365,43 @@ setInterval(function(){
 		cheat=0;
 		totalNewsRead=1000000;
 		totalNewsClicked=3000000;
-		paperclip=10;
-		ND1=5;
+		paperclip=20;
+		ND1=10;
 		storyUnlocked=13;
-		interacted=Array(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
+		currentCapTier=5;
+		interacted=Array(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
 		Save();
 		Load();
 	}
-	awa+=Math.floor(100,PG-1);
+	awa+=Math.floor(Math.pow(100,PG-1)*(1+9*dejavu));
 	if(awa>=tot()){
 		Gened++;
 		paperclip++;
 	}
+	if(PG==0&&totalNewsClicked==0&&totalNewsRead==0&&indicator==0)intro(0);
+	if(PG==0&&totalNewsClicked==15&&indicator==0)intro(6);
+	if(PG==1&&indicator==1){
+		indicator=2;
+		intro(10);
+	}
+	if(storyUnlocked>0&&indicator==3){
+		indicator=4;
+		intro(12);
+	}
+	if(interacted[42])BuyND1();
+	if(interacted[43])BuyGEN();
+	var cs=0;
+	if(paperclip<5)cs=1;
+	else if(paperclip<10)cs=2;
+	else if(paperclip<15)cs=3;
+	else if(paperclip<20)cs=4;
+	else if((interacted[34]+interacted[35]+interacted[36]+interacted[37]+interacted[38]+interacted[44]+interacted[45]+interacted[46])<8)cs=5;
+	else if(totalNewsClicked<1e+303)cs=6;
+	else cs=7;
+	if(cs>currentStage)currentStage=cs;
+	currentCapTier=Math.floor(paperclip/5+0.1);
 	var currentCap=Math.floor((50+50*currentCapTier)+0.1);
-	if(timeleft<=0){
+	if(timeleft<=0&&currentStage<7){
 		rnd=Math.floor(Math.random() * Math.min(rNCount,currentCap));
 		if(rnd>=46&&rnd<=52&&(!interacted[rnd-45]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click here to get 1 free paperclip!"+"</div>";
 		if(rnd==45&&(!interacted[rnd-45])&&(interacted[21]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click here to get 1 free paperclip!"+"</div>";
@@ -305,6 +422,7 @@ setInterval(function(){
 		else if(rnd==57&&(!interacted[22]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock 2 more stories."+"</div>";
 		else if(rnd==103&&(!interacted[23]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock 3 more stories."+"</div>";
 		else if(rnd==153&&(!interacted[24]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock 3 more stories."+"</div>";
+		else if(rnd==232&&(!interacted[52]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock the ending of the story."+"</div>";
 		else if(rnd==147&&(!interacted[25]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to gain 3 reads and 10 clicks per click!!!"+"</div>";
 		else if(rnd==157&&(!interacted[31])&&(interacted[16]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock paperclip generators."+"</div>";
 		else if(rnd>=142&&rnd<=146&&(!interacted[rnd-116])&&(interacted[rnd-117]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click here to get 1 free paperclip!"+"</div>";
@@ -313,13 +431,23 @@ setInterval(function(){
 		else if(rnd==160&&(!interacted[39])&&PG>=5)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to increase that 2.5x boost stuff to 3x!"+"</div>";
 		else if(rnd==161&&(!interacted[40])&&PG>=1)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Increase global speed by 18%. You definitely want this."+"</div>";
 		else if(rnd==162&&(!interacted[41])&&PG>=5)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Increase global speed by 18%. Again?"+"</div>";
+		else if(rnd==164&&(!interacted[50]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"+0.00045% global speed per click. You need an autoclicker."+"</div>";
 		else if(rnd==163&&(!interacted[34])&&PG>=1)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.0 -> 2.1"+"</div>";
-		else if(rnd==164&&(!interacted[35])&&PG>=2&&(interacted[34]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.1 -> 2.2"+"</div>";
+		else if(rnd==168&&(!interacted[35])&&PG>=2&&(interacted[34]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.1 -> 2.2"+"</div>";
 		else if(rnd==165&&(!interacted[36])&&PG>=3&&(interacted[35]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.2 -> 2.3"+"</div>";
 		else if(rnd==166&&(!interacted[37])&&PG>=4&&(interacted[36]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.3 -> 2.4"+"</div>";
 		else if(rnd==167&&(!interacted[38])&&PG>=5&&(interacted[37]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.4 -> 2.5"+"</div>";
+		else if(rnd==211&&(!interacted[44])&&PG>=6&&(interacted[38]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.5 -> 2.6"+"</div>";
+		else if(rnd==212&&(!interacted[45])&&PG>=7&&(interacted[44]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.6 -> 2.7"+"</div>";
+		else if(rnd==213&&(!interacted[46])&&PG>=8&&(interacted[45]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to make ND1 Effect +0.1! Current effect: 2.7 -> 2.8"+"</div>";
+		else if(rnd==199&&(!interacted[42]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock the ND1 Autobuyer!"+"</div>";
+		else if(rnd==202&&(!interacted[43]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Click this to unlock the Paperclip Generator Autobuyer!"+"</div>";
+		else if(rnd==208&&(!interacted[47])&&PG>=1)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Clicking gives +0.5 (game) seconds of PG Production!"+"</div>";
+		else if(rnd==209&&(!interacted[48])&&PG>=3&&(interacted[47]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Clicking gives +0.5 (game) seconds of PG Production!"+"</div>";
+		else if(rnd==210&&(!interacted[49])&&PG>=5&&(interacted[48]))document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+"Clicking gives +0.5 (game) seconds of PG Production!"+"</div>";
 		else document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">"+rN[rnd]+"</div>";
 		timeleft+=8000/((dejavu*10)+1);
+		if(currentStage==6)timeleft/=Math.log10(totalNewsClicked);
 		var increment=1;
 		if(rnd==61)increment*=10;
 		icrr(increment);
@@ -328,6 +456,21 @@ setInterval(function(){
 		document.getElementById("s1").innerHTML="You have read a total of "+nt(totalNewsRead)+" news.";
 		Save();
 	}
+	else{
+		rnd=Math.floor(Math.random() * 20);
+		if(rnd<=1)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\"></div>";
+		else document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">END</div>";
+		document.getElementById("s1").innerHTML="";
+		document.getElementById("s2").innerHTML="";
+		document.getElementById("s3").innerHTML="";
+	}
+	if(currentStage==1)document.getElementById("test").innerHTML="Current Stage: Beginning";
+	if(currentStage==2)document.getElementById("test").innerHTML="Current Stage: Exploration";
+	if(currentStage==3)document.getElementById("test").innerHTML="Current Stage: Production";
+	if(currentStage==4)document.getElementById("test").innerHTML="Current Stage: Expansion";
+	if(currentStage==5)document.getElementById("test").innerHTML="Current Stage: Inflation";
+	if(currentStage==6)document.getElementById("test").innerHTML="Current Stage: DESTRUCTION";
+	if(currentStage==7)document.getElementById("test").innerHTML="Current Stage: END";
 	timeleft-=50;
 },50);
 function executeNews(num){
@@ -337,7 +480,25 @@ function executeNews(num){
 	icrc(increment);
 	increment=1;
 	if(interacted[25])icrr(3*increment);
+	if(interacted[50]){
+		i50clicked++;
+		if(i50clicked<=60000)dejavu+=5e-7;
+	}
+	if(interacted[47])awa+=Math.floor(20*Math.pow(100,PG-1));
+	if(interacted[48])awa+=Math.floor(20*Math.pow(100,PG-1));
+	if(interacted[49])awa+=Math.floor(20*Math.pow(100,PG-1));
+	if(num==-1){
+		anomaly=7;
+		HideStory();
+	}
+	else if(num==178&&anomaly==0)anomaly=1;
+	else anomaly=0;
 	if(num==87)icrr(increment);
+	if(num==85){
+		nt85clicked++;
+		if(nt85clicked<=1000)dejavu+=2e-5;
+	}
+	if(num==173)dejavu+=0.00001;
 	if(num==3){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
 		if(!interacted[21])storyUnlocked=2;
@@ -353,6 +514,7 @@ function executeNews(num){
 	if(num==157&&(interacted[16])){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
 		interacted[31]=1;
+		intro(16);
 		Save();
 		Load();
 	}
@@ -366,9 +528,25 @@ function executeNews(num){
 		if(!interacted[24])storyUnlocked+=3;
 		interacted[24]=1;
 	}
+	if(num==232){
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
+		if(!interacted[52])storyUnlocked+=3;
+		interacted[52]=1;
+	}
 	if(num==147){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
 		interacted[25]=1;
+	}
+	if(num==207){
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews(207)\">"+"Joke! Of course you cannot lock it."+"</div>";
+	}
+	if(num==199){
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
+		interacted[42]=1;
+	}
+	if(num==202){
+		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
+		interacted[43]=1;
 	}
 	if(num==158&&(!interacted[32])&&PG>=1){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
@@ -396,7 +574,7 @@ function executeNews(num){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
 		interacted[34]=1;
 	}
-	if(num==164&&(!interacted[35])&&PG>=2&&(interacted[34])){
+	if(num==168&&(!interacted[35])&&PG>=2&&(interacted[34])){
 		document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+rN[num]+"</div>";
 		interacted[35]=1;
 	}
@@ -514,11 +692,14 @@ function executeNews(num){
 		}
 	}
 	if(num==114)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\">"+"We won't let you do that, otherwise you will be stuck."+"</div>";
-	if(rnd==99&&(!interacted[16])&&(interacted[12])&&(interacted[15]))interacted[16]=1;
+	if(rnd==99&&(!interacted[16])&&(interacted[12])&&(interacted[15])){
+		interacted[16]=1;
+		intro(15);
+	}
 	if(num==78)totalNewsClicked*=Math.floor(Math.random()*2)*2;
 	if(num==79)timeleft=0;
 	currentCapTier=Math.floor(paperclip/5+0.1);
-	if(interacted[16]>0)document.getElementById("s").innerHTML="<text onclick=Dim()>Dimensions</text> | <text onclick=Ex()>Exit</text>";
+	ShowTab();
 	document.getElementById("s1").innerHTML="You have read a total of "+nt(totalNewsRead)+" news.";
 	document.getElementById("s2").innerHTML="You have clicked on a total of "+nt(totalNewsClicked)+" news.";
 	document.getElementById("s3").innerHTML="You have "+paperclip+" paperclips. You need another "+(5+5*currentCapTier-paperclip)+" to unlock more news. Current News size: "+Math.min(rNCount,Math.floor((50+50*currentCapTier)+0.1));

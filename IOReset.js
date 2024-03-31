@@ -11,6 +11,9 @@ function Wipe(){
 	localStorage.setItem('idiot2',0);
 	localStorage.setItem('idiot3',0);
 	localStorage.setItem('solk',0);
+	localStorage.setItem('qwer',0);
+	localStorage.setItem('asdf',0);
+	localStorage.setItem('zxcv',0);
 	Load();
 }
 function Save(){
@@ -26,6 +29,9 @@ function Save(){
 	localStorage.setItem('idiot2',awa);
 	localStorage.setItem('idiot3',Gened);
 	localStorage.setItem('solk',storyUnlocked);
+	localStorage.setItem('qwer',nt85clicked);
+	localStorage.setItem('asdf',i50clicked);
+	localStorage.setItem('zxcv',indicator);
 }
 function Load(){
 	var tmp=localStorage.getItem('rigc');
@@ -39,12 +45,10 @@ function Load(){
 	PG=Number(localStorage.getItem('idiot'));
 	awa=Number(localStorage.getItem('idiot2'));
 	Gened=Number(localStorage.getItem('idiot3'));
-	if(interacted[26]>0&&storyShown==0)document.getElementById("s").innerHTML="<text onclick=Dim()>Dimensions</text> | <text onclick=Gen()>Generator</text> | <text onclick=ShowStory(0)>Show Story</text> | <text onclick=Ex()>Exit</text>";
-	else if(interacted[26]>0&&storyShown>0)document.getElementById("s").innerHTML="<text onclick=Dim()>Dimensions</text> | <text onclick=Gen()>Generator</text> | <text onclick=HideStory(0)>Hide Story</text> | <text onclick=Ex()>Exit</text>";
-	else if(interacted[16]>0&&storyShown==0)document.getElementById("s").innerHTML="<text onclick=Dim()>Dimensions</text> | <text onclick=ShowStory(0)>Show Story</text> | <text onclick=Ex()>Exit</text>";
-	else if(interacted[16]>0&&storyShown>0)document.getElementById("s").innerHTML="<text onclick=Dim()>Dimensions</text> | <text onclick=HideStory(0)>Hide Story</text> | <text onclick=Ex()>Exit</text>";
-	else if(interacted[21]>0&&storyShown==0)document.getElementById("s").innerHTML="<text onclick=ShowStory(0)>Show Story</text>";
-	else if(interacted[21]>0&&storyShown>0)document.getElementById("s").innerHTML="<text onclick=HideStory()>Hide Story</text>";
+	nt85clicked=Number(localStorage.getItem('qwer'));
+	i50clicked=Number(localStorage.getItem('asdf'));
+	indicator=Number(localStorage.getItem('zxcv'));
+	ShowTab();
 	document.getElementById("s1").innerHTML="You have read a total of "+nt(totalNewsRead)+" news.";
 	document.getElementById("s2").innerHTML="You have clicked on a total of "+nt(totalNewsClicked)+" news.";
 	document.getElementById("s3").innerHTML="You have "+paperclip+" paperclips. You need another "+(5+5*currentCapTier-paperclip)+" to unlock more news. Current News size: "+Math.min(rNCount,Math.floor((50+50*currentCapTier)+0.1));

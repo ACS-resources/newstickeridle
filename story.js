@@ -1,4 +1,4 @@
-var totalStory=14;
+var totalStory=16;
 var StoryName=new Array(
    "Front Page",
 	"Story 01(R)",
@@ -13,10 +13,12 @@ var StoryName=new Array(
 	"Side Story 02(O)",
 	"Epilogue(R)",
 	"Credits",
-	"Credits"
+	"Credits",
+   "Error",
+   "Error"
 );
 var Story=new Array(
-   "</br></br></br>Story of Paperclips</br> by lazer</br></br></br>",
+   "</br></br></br>Story of Paperclips</br> by Whoever it is not the author</br></br></br>",
 	"She was very stressed. Depressed.</br>"
    +"So she went on the journey of seeking her happiness.</br>"
    +"She went with huge efforts and cost,</br>"
@@ -85,7 +87,7 @@ var Story=new Array(
    +"One day, she encountered a particularly interesting crystal.</br>"
    +"She took it home and polished it, and then it amazed her with its shiny structure.</br>"
    +"She wanted to store it somewhere.</br>"
-   +"SHe put all her crystals into a small room, holing that someday someone would visit it.</br>"
+   +"She put all her crystals into a small room, holing that someday someone would visit it.</br>"
    +"Or put it more.",
 	"The work was finally done.</br>"
    +"She put her creation on the entrance of a chamber.</br>"
@@ -94,44 +96,74 @@ var Story=new Array(
    +"No one knows what the labyrinth is ever after.</br>"
    +"But we must know.</br>"
    +"We shall know.",
-	"Idea/Development: l319836</br>"
+	"--- Idea/Development ---</br>"
+   +"l319836</br>"
    +"--- Story ---</br>"
-   +"l31836/Fallen_Cat</br>"
+   +"l31836/Whoever it is not the author</br>"
    +"--- Suggestions ---</br>"
    +"yhvr/ACrazySteve</br>"
-   +"--- Newstickers ---"
-   +"l319836/Fallen_Cat/Semenar/Hevipelle/yhvr/ACrazySteve/xdy</br>"
    +"</br>",
-	"--- Story style--- </br>"
+    "--- Newstickers ---</br>"
+   +"l319836/Fallen_Cat/Semenar/Hevipelle/yhvr/ACrazySteve/xdy/Sparkle_7</br>"
+   +"--- Story style--- </br>"
    +"Arcaea (Lowiro limited)</br>"
-   +"Placeholder</br>"
-   +"Placeholder</br>"
-   +"Placeholder</br>"
-   +"Placeholder</br>"
-   +"Placeholder",
+   +"--- Beta Testers ---</br>"
+   +"ACrazySteve/Sparkle_7</br>"
+   +"</br>",
+   "<br><br><br>No!!!<br>Don't do that!<br><br><br>",
+   "<br><br><br>No!!!<br>Don't do that!<br><br><br>"
 );
 var currentPage=0;
 function HideStory(){
+   if(anomaly==7);
+   else if(anomaly==19)anomaly=20;
+   else if(anomaly==23)anomaly=24;
+   else anomaly=0;
    document.getElementById("sh").innerHTML="";
    storyShown=0;
    Save();
    Load();
 }
 function LastPage(){
+   if(anomaly==2)if(currentPage==0)anomaly=3;
+   else if(anomaly==10)if(currentPage==14)anomaly=11;
+   else if(anomaly==13)if(currentPage==14)anomaly=14;
+   else if(anomaly==12)if(currentPage==15)anomaly=13;
+   else if(anomaly==16)if(currentPage==1)anomaly=17;
+   else anomaly=0;
    if(currentPage!=0){
       currentPage--;
       ShowStory(currentPage);
    }
 }
 function NextPage(){
+   if(anomaly==14)if(currentPage==13)anomaly=15;
+   else if(anomaly==22)anomaly=23;
+   else if(anomaly==21)anomaly=22;
+   else if(anomaly==18)anomaly=19;
+   else anomaly=0;
    if(currentPage<storyUnlocked){
       currentPage++;
       ShowStory(currentPage);
    }
 }
 function ShowStory(nk){
+   if(anomaly==1)anomaly=2;
+   else if(anomaly==20)anomaly=21;
+   else if(anomaly==9){
+      anomaly=10;
+      nk=14;
+      currentPage=14;
+   }
+   else if(anomaly==10);
+   else if(anomaly==11);
+   else if(anomaly==12);
+   else if(anomaly==13);
+   else if(anomaly==14);
+   else if(anomaly==17);
+   else anomaly=0;
    storyShown=1;
-   document.getElementById("sh").innerHTML="<div id=\"qaq\" class=\"center\"><div id=\"ttl\" class=\"txt\"></div><div id=\"story\" class=\"txt\"></div></div>";
+   document.getElementById("sh").innerHTML="<div id=\"qaq\" class=\"center\"><div id=\"ttl\" class=\"txt\"></div><div id=\"story\" class=\"txttxt\"></div></div>";
    document.getElementById("ttl").innerHTML="<text onclick=\"LastPage()\">< Last  </text>"+StoryName[nk]+"<text onclick=\"NextPage()\">  Next ></text>";
    document.getElementById("story").innerHTML=Story[nk];
    Save();
