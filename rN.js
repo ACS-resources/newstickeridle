@@ -456,7 +456,7 @@ setInterval(function(){
 		document.getElementById("s1").innerHTML="You have read a total of "+nt(totalNewsRead)+" news.";
 		Save();
 	}
-	else{
+	else if(currentStage==7){
 		rnd=Math.floor(Math.random() * 20);
 		if(rnd<=1)document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\"></div>";
 		else document.getElementById("main1").innerHTML="<div id=\"rn\" class=\"center\" onclick=\"executeNews("+rnd+")\">END</div>";
